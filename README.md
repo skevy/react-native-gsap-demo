@@ -3,6 +3,8 @@ GSAP on React Native!
 
 This is a demo showing basic usage of GSAP's TweenMax and TimelineMax on React Native by simply tweening state using HZDG's awesome [gsap-react-plugin](https://github.com/hzdg/gsap-react-plugin).
 
+![animation](https://raw.githubusercontent.com/skevy/react-native-gsap-demo/master/gif/react-native-gsap.gif)
+
 A few notes:
 
 - This uses my fork of GreenSock-JS (https://github.com/skevy/GreenSock-JS/tree/node-compat), in order to play nice with the fact that React Native doesn't have "document" defined.
