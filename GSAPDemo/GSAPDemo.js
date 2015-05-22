@@ -25,10 +25,8 @@ var TweenableImage = React.createClass({
     if (!options) {
       options = {};
     }
-
     var finalState = {};
     finalState[property] = finalValue;
-
     return TweenMax.to(this, duration, Object.assign({}, { state: finalState }, options));
   },
 
@@ -82,7 +80,6 @@ var GSAPDemo = React.createClass({
       this.refs.image1.getTween('left', '-=150', 1.5, { easing: Expo.easeInOut }),
       this.refs.image1.getTween('opacity', 0, 1.5, { easing: Expo.easeInOut })
     ], '+=0', 'start');
-
   },
 
   render: function() {
