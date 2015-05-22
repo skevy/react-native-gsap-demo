@@ -6,6 +6,8 @@
     "start": "node_modules/react-native/packager/packager.sh"
   },
   "dependencies": {
+    "gsap": "git://github.com/skevy/GreenSock-JS.git#node-compat",
+    "gsap-react-plugin": "^1.0.2",
     "react-native": "^0.4.4"
   }
 }
